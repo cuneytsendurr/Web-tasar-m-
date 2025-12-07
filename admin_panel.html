@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Yönetici Paneli - Eğik Düzlem</title>
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,700&display=swap" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  
+  <style>
+    /* Bu sayfa için özel minimal ayarlar */
+    body { background-color: #f4f7f6; }
+    .hero_area { height: auto; min-height: 200px; }
+  </style>
+</head>
+
+<body>
+  <div class="hero_area">
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <h3>EĞİK DÜZLEM</h3>
+            <span> YÖNETİCİ PANELİ</span>
+          </a>
+          <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html" style="color: #fff; font-weight: bold;">ÇIKIŞ YAP</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </div>
+
+  <section class="layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h3>Satış Raporları</h3>
+        <p>Son satın alınan paketler ve kurs kayıtları aşağıda listelenmiştir.</p>
+      </div>
+
+      <div class="table-container">
+        <table class="admin-table">
+          <thead>
+            <tr>
+              <th>Sipariş No</th>
+              <th>Öğrenci Adı</th>
+              <th>Satın Alınan Paket</th>
+              <th>Tarih</th>
+              <th>Tutar</th>
+              <th>Durum</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>#1024</td>
+              <td>Ahmet Yılmaz</td>
+              <td>LGS Matematik Koçluk</td>
+              <td>07.12.2025</td>
+              <td>2.500 ₺</td>
+              <td><span class="status-paid">Ödendi</span></td>
+            </tr>
+            <tr>
+              <td>#1025</td>
+              <td>Ayşe Demir</td>
+              <td>IELTS Hazırlık İngilizce</td>
+              <td>06.12.2025</td>
+              <td>3.000 ₺</td>
+              <td><span class="status-paid">Ödendi</span></td>
+            </tr>
+            <tr>
+              <td>#1026</td>
+              <td>Burak Can</td>
+              <td>Üniversite Matematik Destek</td>
+              <td>05.12.2025</td>
+              <td>1.200 ₺</td>
+              <td><span class="status-pending">Bekliyor</span></td>
+            </tr>
+            <tr>
+              <td>#1027</td>
+              <td>Zeynep Kaya</td>
+              <td>Edebiyat Özel Ders</td>
+              <td>04.12.2025</td>
+              <td>800 ₺</td>
+              <td><span class="status-paid">Ödendi</span></td>
+            </tr>
+             <tr>
+              <td>#1028</td>
+              <td>Mehmet Öztürk</td>
+              <td>İş İngilizcesi Paketi</td>
+              <td>04.12.2025</td>
+              <td>4.500 ₺</td>
+              <td><span class="status-paid">Ödendi</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div style="margin-top: 30px; text-align: right;">
+        <button class="btn" style="background-color: #133e3f; color: white;">Raporu İndir (PDF)</button>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="container-fluid footer_section">
+    <p>&copy; 2025 Eğik Düzlem Akademi - Yönetici Paneli</p>
+  </footer>
+
+</body>
+</html>
