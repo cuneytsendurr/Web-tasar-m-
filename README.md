@@ -1,6 +1,4 @@
-Tabii ki kanka, bir mühendislik projesinin olmazsa olmazı kaliteli bir README dosyasıdır. Bu dosya, projeni GitHub'a yüklediğinde veya hocan incelediğinde projenin kimliği olur.
 
-Aşağıdaki metni projenin kök dizinine README.md adıyla kaydedebilirsin. Hem profesyonel hem de projenin tüm detaylarını açıklayan bir taslak hazırladım:
 
 🎓 Eğik Düzlem Akademi - Eğitim Yönetim Sistemi Prototipi
 Bu proje, öğrencilerin eğitim süreçlerini takip edebileceği ve yöneticilerin kayıt/satış süreçlerini yönetebileceği modern, duyarlı (responsive) bir web platformu prototipidir.
